@@ -9,5 +9,6 @@ $(document).ready(function(){
   });
   $("button#stop").click(function(){
     $("ul").prepend("<li>Stop copying me!</li>")
+    $("ul#webpage").prepend("<li>Padon me. I meant no offence</li>")
   })
 })
